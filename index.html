@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uni Eropa</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="icon" href="favicon.svg">
+</head>
+<body>
+
+<!--Loader-->
+<div id="overlay">
+    <div id="loader">
+    </div>
+</div>
+
+<!--Header-->
+    <header>
+        <div class="extras">
+            <h4>Dark Mode </h4>
+            <li class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+              </label>
+            </li>
+        </div>
+        <!--Navigation-->
+                <nav>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/image/Bendera.svg" alt="Lambang" height="70px">
+                        </a>
+                        <div class="text">
+                            <h4>
+                                UNI EROPA<br>
+                                <em>EUROPEAN UNION</em>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <ul class="main-nav" id="js-menu">
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#sejarah">Sejarah</a></li>
+                        <li><a href="#anggota">Anggota</a></li>
+                        <li id="myBtn"><a href="#">Profile</a></li>
+                    </ul>
+                    <div class="menu-toggle">
+                        <input type="checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+    </header>
+     <!--Modal-->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 class="h2-modal">Profile</h2>
+            </div>
+            <div class="modal-body">
+                <header>
+                    <figure>
+                      <img src="assets/image/profile/profile.jpeg" alt="profile" class="img-main">
+                    </figure>
+                </header>
+                <section>
+                    <h3>Biodata :</h3>
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>Yudha Kurniawan</td>
+                        </tr>
+                        <tr>
+                            <td>Minat</td>
+                            <td>Android Enthusiast, Front-end WEB Enthusiast</td>
+                        </tr>
+                        <tr>
+                            <td>Social Media</td>
+                            <td><a href="https://www.instagram.com/yk_lg" target="_blank"><img src="assets/image/profile/instagram.png" alt="instagram" class="img"></a>&nbsp;<a href="https://www.facebook.com/yklg01/" target="_blank"><img src="assets/image/profile/facebook.svg" alt="instagram" class="img"></a></a></td>
+                        </tr>
+                        <tr>
+                            <td>Profile</td>
+                            <td><a href="https://www.linkedin.com/in/yk-lg" target="_blank"><img src="assets/image/profile/linkedin.png" alt="linkedin" class="img" style="border-radius: 50%;"></a></td>
+                        </tr>
+                        <tr>
+                            <td>Dicoding Profile</td>
+                            <td><a href="https://www.dicoding.com/users/yudha1121ay" target="_blank"><img src="assets/image/profile/dicoding.jpeg" alt="dicoding" class="img" style="border-radius: 50%;"></a></td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+      </div>
+    </div>
+
+<!--Main-->
+    <main>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Uni Eropa</h2>
+                        <figure>
+                            <img src="assets/image/Bendera.svg" alt="Lambang">
+                            <figcaption>Bendera</figcaption>
+                        </figure>
+                </header>
+                <section>
+                    <h3>Semboyan</h3>
+                    <table>
+                        <tr>
+                            <td>"In Varietate Concordia" (Latin)</td>
+                            <td>"Bersatu dalam Keragaman"</td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h3>Lagu Kebangsaan</h3>
+                    <table>
+                        <tr>
+                            <td>"Ode to Joy" (orkestra)</td>
+                            <td>
+                                <audio id="myAudio">
+                                    <source src="assets/sound/MusikKebangsaan.ogg" type="audio/ogg">
+                                </audio>
+                                <button onclick="playAudio()" type="button" class="button">&#9658;</button>
+                                <button onclick="pauseAudio()" type="button" class="button" style="padding: 10px 5px 10px 10px;">&#9612;&#9612;</button>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+            <article class="profile card">
+                 <iframe class="frame"
+                    src="https://www.youtube.com/embed/4VCYHTGjr-U">
+                 </iframe>
+            </article>
+        </aside>
+        <div id="content">
+            <article id="tentang" class="card">
+                <h2>Uni Eropa</h2>
+                <img src="assets/image/Bendera.svg" alt="sejarah" class="featured-image">
+                <p>Uni Eropa (disingkat UE) adalah organisasi antarpemerintahan dan supranasional yang beranggotakan negara-negara Eropa. Sejak 31 Januari 2020, Uni Eropa beranggotakan 27 negara. Persatuan ini didirikan atas nama tersebut di bawah Perjanjian Uni Eropa (yang lebih dikenal dengan Perjanjian Maastricht) pada 1992. Namun, banyak aspek dari Uni Eropa timbul sebelum tanggal tersebut melalui organisasi sebelumnya, yaitu kembali ke tahun 1950-an.</p>
+                <p>Organisasi internasional ini bekerja melalui gabungan sistem supranasional dan antarpemerintahan. Di beberapa bidang, keputusan-keputusan ditetapkan melalui musyawarah dan mufakat di antara negara-negara anggota, dan di bidang-bidang lainnya lembaga-lembaga organ yang bersifat supranasional menjalankan tanggung jawabnya tanpa perlu persetujuan anggota-anggotanya. Lembaga organ penting di dalam Uni Eropa adalah Komisi Eropa, Dewan Uni Eropa, Dewan Eropa, Mahkamah Eropa, dan Bank Sentral Eropa. Di samping itu, terdapat pula Parlemen Eropa yang anggota-anggotanya dipilih langsung oleh warga negara anggotanya.</p>
+                <p>Sumber : <em>Wikipedia</em></p>
+            </article>
+
+            <article id="sejarah" class="card">
+                <h2>Sejarah</h2>
+                <img src="assets/image/Map.png" alt="sejarah" class="featured-image">
+                <p>Percobaan untuk menyatukan negara Eropa telah dimulai sebelum terbentuknya negara-negara modern; mereka telah terjadi beberapa kali dalam sejarah Eropa. Tiga ribu tahun lalu, Eropa didominasi oleh bangsa Celt. Kemudian, Eropa ditaklukan dan diperintah Kekaisaran Roma yang berpusat di Mediterania. Awal penyatuan ini diciptakan dengan cara paksa. Kekaisaran Franks dari Charlemagne dan Kekaisaran Suci Roma menyatukan wilayah yang luas di bawah administrasi yang longgar selama beberapa ratus tahun. Belakangan pada 1800-an customs union di bawah Napoleon Bonaparte, dan penaklukan pada 1940-an oleh Nazi Jerman hanya terjadi sementara saja.</p>
+                <p>Karena koleksi bahasa Eropa dan budayanya, percobaan penyatuan ini biasanya melibatkan pendudukan dari negara-negara yang tidak bersedia sehingga menciptakan ketidakstabilan. Salah satu percobaan penyatuan secara damai melalui kerja sama dan persamaan anggota dibuat oleh pasifis Victor Hugo pada 1851. Setelah Perang Dunia I dan Perang Dunia II, keinginan untuk mendirikan Uni Eropa semakin meningkat karena didorong oleh keinginan untuk membangun kembali Eropa dan menghilangkan kemungkinan perang lainnya. Oleh karena itu, dibentuklah European Coal and Steel Community oleh Jerman, Prancis, Italia, dan negara-negara Benelux. Hal ini terjadi oleh Perjanjian Paris (1951) yang ditandatangani pada April 1951 dan dimulai pada Juli 1952.</p>
+                <p>Setelah itu, terbentuk juga European Economic Community yang didirikan oleh Perjanjian Roma pada 1957 dan diimplementasikan pada 1 Januari 1958. Kemudian, komunitas tersebut berubah menjadi Masyarakat Eropa yang merupakan 'pilar pertama' dari Uni Eropa. Uni Eropa telah ber-evolusi dari sebuah badan perdagangan menjadi sebuah kerja sama ekonomi dan politik.</p>
+                <p>Sumber : <em>Wikipedia</em></p>
+            </article>
+
+            <article id="anggota" class="card">
+                <h2>Negara Anggota</h2>
+                <table class="table-flags">
+                    <tr>
+                        <th>No</th>
+                        <th>Bendera</th>
+                        <th>Bergabung</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img src="assets/image/flags/Austria.svg" class="flags">
+                            <figcaption>Austria</figcaption>
+                        </td>
+                        <td>1 Januari 1995</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img src="assets/image/flags/Belanda.svg" class="flags">
+                            <figcaption>Belanda</figcaption>
+                        </td>
+                        <td>Pendiri</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <img src="assets/image/flags/Belgia.svg" class="flags">
+                            <figcaption>Belgia</figcaption>
+                        </td>
+                        <td>Pendiri</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <img src="assets/image/flags/Bulgaria.svg" class="flags">
+                            <figcaption>Bulgaria</figcaption>
+                        </td>
+                        <td>1 Januari 2007</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <img src="assets/image/flags/Ceko.svg" class="flags">
+                            <figcaption>Ceko</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <img src="assets/image/flags/Denmark.svg" class="flags">
+                            <figcaption>Denmark</figcaption>
+                        </td>
+                        <td>1 Januari 1973</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <img src="assets/image/flags/Estonia.svg" class="flags">
+                            <figcaption>Estonia</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <img src="assets/image/flags/Finlandia.svg" class="flags">
+                            <figcaption>Finlandia</figcaption>
+                        </td>
+                        <td>1 Januari 1995</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            <img src="assets/image/flags/Hongaria.svg" class="flags">
+                            <figcaption>Hongaria</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>
+                            <img src="assets/image/flags/Irlandia.svg" class="flags">
+                            <figcaption>Irlandia</figcaption>
+                        </td>
+                        <td>1 Januari 1973</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>
+                            <img src="assets/image/flags/Italia.svg" class="flags">
+                            <figcaption>Italia</figcaption>
+                        </td>
+                        <td>Pendiri</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>
+                            <img src="assets/image/flags/Jerman.svg" class="flags">
+                            <figcaption>Jerman</figcaption>
+                        </td>
+                        <td>Pendiri</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>
+                            <img src="assets/image/flags/Kroasia.svg" class="flags">
+                            <figcaption>Kroasia</figcaption>
+                        </td>     
+                        <td>1 Juli 2013</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>
+                            <img src="assets/image/flags/Latvia.svg" class="flags">
+                            <figcaption>Latvia</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>
+                            <img src="assets/image/flags/Lithuania.svg" class="flags">
+                            <figcaption>Lithuania</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>
+                            <img src="assets/image/flags/Luksemburg.svg" class="flags">
+                            <figcaption>Luksemburg</figcaption>
+                        </td>
+                        <td>Pendiri</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>
+                            <img src="assets/image/flags/Malta.svg" class="flags">
+                            <figcaption>Malta</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>
+                            <img src="assets/image/flags/Polandia.svg" class="flags">
+                            <figcaption>Polandia</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>
+                            <img src="assets/image/flags/Portugal.svg" class="flags">
+                            <figcaption>Portugal</figcaption>
+                        </td>
+                        <td>1 Januari 1986</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>
+                            <img src="assets/image/flags/Prancis.svg" class="flags">
+                            <figcaption>Prancis</figcaption>
+                        </td>
+                        <td>Pendiri</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>
+                            <img src="assets/image/flags/Rumania.svg" class="flags">
+                            <figcaption>Rumania</figcaption>
+                        </td>
+                        <td>1 Januari 2007</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>
+                            <img src="assets/image/flags/Siprus.svg" class="flags">
+                            <figcaption>Siprus</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>
+                            <img src="assets/image/flags/Slovakia.svg" class="flags">
+                            <figcaption>Slovakia</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>
+                            <img src="assets/image/flags/Slovenia.svg" class="flags">
+                            <figcaption>Slovenia</figcaption>
+                        </td>
+                        <td>1 Mei 2004</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>
+                            <img src="assets/image/flags/Spanyol.svg" class="flags">
+                            <figcaption>Spanyol</figcaption>
+                        </td>
+                        <td>1 Januari 1986</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>
+                            <img src="assets/image/flags/Swedia.svg" class="flags">
+                            <figcaption>Swedia</figcaption>
+                        </td>
+                        <td>1 Januari 1995</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>
+                            <img src="assets/image/flags/Yunani.svg" class="flags">
+                            <figcaption>Yunani</figcaption>
+                        </td>
+                        <td>1 Januari 1981</td>
+                    </tr>
+                 </table>
+            </article>
+        </div>
+</main>
+
+<footer>
+    <h3>&copy; 2021 by YK_LG</h3>
+</footer>
+
+
+<script src="assets/js/navigation.js"></script>
+<script src="assets/js/dark-mode.js"></script>
+<script src="assets/js/loader.js"></script>
+<script src="assets/js/modal.js"></script>
+<script src="assets/js/soundplayer.js"></script>
+</body>
+</html>
