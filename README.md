@@ -8,7 +8,7 @@
   <li> Vanilla JS </li>
 </ul>
 
-<h2>Live Preview : <a href="https://yudha1121ay.github.io/web-profile-uni-eropa" target=_blank > Link </a>
+<h2>Live Preview : <a href="https://yudha1121ay.github.io/web-profile-uni-eropa" target="_blank" > Link </a>
 
 <h3>Screenshot :</h3>
 <h3>Dark Mode</h3>
