@@ -20,4 +20,4 @@
 <h3>Mobile Screen</h3>
 <img src="/screenshot/SS-Mobile.jpg" alt="darkmode" height="800px">
 
-<h4> Note : Beberapa bagian masih ada yang overflow seperti frame youtube, harapannya dapat diperbaiki kedepan :) </h4>
+<h4> Note : Beberapa bagian masih ada yang belum tepat posisinya seperti frame youtube, harapannya dapat diperbaiki kedepan :) </h4>
