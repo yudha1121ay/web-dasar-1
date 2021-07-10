@@ -8,6 +8,8 @@
   <li> Vanilla JS </li>
 </ul>
 
+<h2>Live Preview : <a href="yudha1121ay.github.io/web-profile-uni-eropa"> Link </a>
+
 <h3>Screenshot :</h3>
 <h3>Dark Mode</h3>
 <img src="/screenshot/SS-Desktop-DarkMode.png" alt="darkmode" width="800px">
